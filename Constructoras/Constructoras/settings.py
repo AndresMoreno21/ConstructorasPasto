@@ -80,14 +80,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 
-     #'default': {
-      #  'ENGINE': 'django.db.backends.postgresql',
-       # 'NAME': 'Constructoras',
-        #'USER': 'postgres',
-        #'PASSWORD':'',
-        #'HOST':'localhost',
-        #'PORT':''
-   # }
 }
 
 
@@ -127,6 +119,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+STATIC_ROOT = "/constructorasApp/static/contructorasApp/"
 STATIC_URL = '/constructorasApp/static/contructorasApp/'
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
